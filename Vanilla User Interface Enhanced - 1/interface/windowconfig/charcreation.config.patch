@@ -1,0 +1,230 @@
+[
+    // 100 pixel difference - 50 if centered
+
+    { "op" : "remove", "path" : "/paneLayout/bgShine" },
+
+    { "op" : "replace", "path" : "/paneLayout/labelSpeciesRadio/position", "value" : [ 119, 309 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelGender/position", "value" : [ 119, 201 ] },
+    { "op" : "replace", "path" : "/paneLayout/labelGender/value", "value" : "^#8d8d8d;SEX" },
+
+    { "op" : "replace", "path" : "/paneLayout/labelCustomise/position", "value" : [ 269, 201 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelName/position", "value" : [ 169, 125 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelDifficulty/position", "value" : [ 169, 97 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelRandomise/position", "value" : [ 259, 230 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelToggleClothing/position", "value" : [ 271, 215 ] },
+    { "op" : "replace", "path" : "/paneLayout/btnToggleClothing/position", "value" : [ 230, 215 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelPortrait/position", "value" : [ 268, 309 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelMainSkinColor/position", "value" : [ 226, 188 ] },
+    { "op" : "replace", "path" : "/paneLayout/mainSkinColor/position", "value" : [ 293, 188 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelHairStyle/position", "value" : [ 26, 139 ] },
+    { "op" : "replace", "path" : "/paneLayout/hairStyle/position", "value" : [ 93, 139 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelShirt/position", "value" : [ 26, 152 ] },
+    { "op" : "replace", "path" : "/paneLayout/shirt/position", "value" : [ 93, 152 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelPants/position", "value" : [ 126, 152 ] },
+    { "op" : "replace", "path" : "/paneLayout/pants/position", "value" : [ 193, 152 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelPersonality/position", "value" : [ 126, 139 ] },
+    { "op" : "replace", "path" : "/paneLayout/personality/position", "value" : [ 193, 139 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelAlty/position", "value" : [ 226, 139 ] },
+    { "op" : "replace", "path" : "/paneLayout/alty/position", "value" : [ 293, 139 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelHeady/position", "value" : [ 226, 176 ] },
+    { "op" : "replace", "path" : "/paneLayout/heady/position", "value" : [ 293, 176 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelShirtColor/position", "value" : [ 226, 164 ] },
+    { "op" : "replace", "path" : "/paneLayout/shirtColor/position", "value" : [ 293, 164 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelPantsColor/position", "value" : [ 226, 152 ] },
+    { "op" : "replace", "path" : "/paneLayout/pantsColor/position", "value" : [ 293, 152 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/randomize/position", "value" : [ 288, 226 ] },
+    { "op" : "replace", "path" : "/paneLayout/randomName/position", "value" : [ 265, 110 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/saveChar/position", "value" : [ 237, 30 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/species/position", "value" : [ 27, 284 ] },
+    { "op" : "replace", "path" : "/paneLayout/species/buttons/0/position", "value" : [ 0, 0 ] },
+    { "op" : "replace", "path" : "/paneLayout/species/buttons/1/position", "value" : [ 22, 0 ] },
+    { "op" : "replace", "path" : "/paneLayout/species/buttons/2/position", "value" : [ 44, 0 ] },
+    { "op" : "replace", "path" : "/paneLayout/species/buttons/3/position", "value" : [ 66, 0 ] },
+    { "op" : "replace", "path" : "/paneLayout/species/buttons/4/position", "value" : [ 88, 0 ] },
+    { "op" : "replace", "path" : "/paneLayout/species/buttons/5/position", "value" : [ 110, 0 ] },
+    { "op" : "replace", "path" : "/paneLayout/species/buttons/6/position", "value" : [ 132, 0 ] },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 7,
+            "image" : "",
+            "position" : [ 154, 0 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 8,
+            "image" : "",
+            "position" : [ 0, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 9,
+            "image" : "",
+            "position" : [ 22, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 10,
+            "image" : "",
+            "position" : [ 44, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 10,
+            "image" : "",
+            "position" : [ 66, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 11,
+            "image" : "",
+            "position" : [ 88, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 12,
+            "image" : "",
+            "position" : [ 110, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 13,
+            "image" : "",
+            "position" : [ 132, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 14,
+            "image" : "",
+            "position" : [ 154, -23 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 15,
+            "image" : "",
+            "position" : [ 0, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 16,
+            "image" : "",
+            "position" : [ 22, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 17,
+            "image" : "",
+            "position" : [ 44, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 18,
+            "image" : "",
+            "position" : [ 66, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 19,
+            "image" : "",
+            "position" : [ 88, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 20,
+            "image" : "",
+            "position" : [ 110, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 21,
+            "image" : "",
+            "position" : [ 132, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 22,
+            "image" : "",
+            "position" : [ 154, -46 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 23,
+            "image" : "",
+            "position" : [ 0, -69 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 24,
+            "image" : "",
+            "position" : [ 22, -69 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 25,
+            "image" : "",
+            "position" : [ 44, -69 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 26,
+            "image" : "",
+            "position" : [ 66, -69 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 27,
+            "image" : "",
+            "position" : [ 88, -69 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 28,
+            "image" : "",
+            "position" : [ 110, -69 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 29,
+            "image" : "",
+            "position" : [ 132, -69 ]
+        }
+    },
+    { "op" : "add", "path" : "/paneLayout/species/buttons/-", "value" : {
+            "id" : 30,
+            "image" : "",
+            "position" : [ 154, -69 ]
+        }
+    },
+
+    { "op" : "replace", "path" : "/paneLayout/gender/position", "value" : [ 85, 138 ] },
+    { "op" : "replace", "path" : "/paneLayout/gender/buttons/0/position", "value" : [ -25, 32 ] },
+    { "op" : "replace", "path" : "/paneLayout/gender/buttons/1/position", "value" : [ 66, 32 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/labelMode/position", "value" : [ 170, 70 ] },
+    { "op" : "replace", "path" : "/paneLayout/labelSurvivalMode/position", "value" : [ 155, 85 ] },
+    { "op" : "replace", "path" : "/paneLayout/labelHardcoreMode/position", "value" : [ 269, 85 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/mode/buttons/1/position", "value" : [ 97, 0 ] },
+    { "op" : "replace", "path" : "/paneLayout/mode/buttons/2/position", "value" : [ 211, 0 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/charPreview/position", "value" : [ 267, 278 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/btnSkipIntro/position", "value" : [ 128, 54 ] },
+    { "op" : "replace", "path" : "/paneLayout/lblSkipIntro/position", "value" : [ 140, 54 ] }
+]

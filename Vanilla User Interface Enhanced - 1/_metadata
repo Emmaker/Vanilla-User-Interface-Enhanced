@@ -1,0 +1,12 @@
+{
+  "author" : "JamesTheMaker",
+  "description" : "[h3]Requires a new game![/h3]\n[h1]About[/h1]\nVanilla UI Enhanced is a project I've been wanting to do and have been working on for a long time now. It aims to redesign and enhance every part of the vanilla user interface, while staying true to it's original style. Currently, it enhances the following interfaces:\n[list]\n  [*]Party interface\n  [*]Health, energy and hunger bars\n  [*]Hotbar\n  [*]Main bar\n  [*]Character creation\n  [*]Inventory\n[/list]\n\n[h1]Why Community Framework?[/h1]\nIn order to achieve the unique graphic of the main bar (the buttons in the top right corner), I had to sacrifice the Codex button. While the Codex interface is still accessible through the L key, I specifically nested the Collections button in the very corner because Community Framework replaces the Collections menu with the Unipad, through which you can access Community Framework's superior custom Codex. Again, the mod will still function perfectly fine without Community Framework, but it is recommended you use it regardless.",
+  "friendlyName" : "Vanilla UI Enhanced (1/2)",
+  "link" : "steam://url/CommunityFilePage/3167787027",
+  "name" : "vanillauienhanced",
+  "steamContentId" : "3167787027",
+  "tags" : "User Interface",
+  "version" : "1.1",
+  "includes" : ["communityframework"],
+  "priority" : -9999
+}

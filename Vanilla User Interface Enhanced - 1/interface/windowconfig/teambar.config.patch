@@ -1,0 +1,13 @@
+[
+    { "op" : "replace", "path" : "/paneLayout/backing/position", "value" : [ 0, -60 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/healthBar/position", "value" : [ 30, -19 ] },
+    { "op" : "replace", "path" : "/paneLayout/healthBar/size", "value" : [ 61, 6 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/energyBar/position", "value" : [ 30, -25 ] },
+    { "op" : "replace", "path" : "/paneLayout/energyBar/size", "value" : [ 61, 6 ] },
+
+    { "op" : "replace", "path" : "/paneLayout/foodBar/position", "value" : [ 30, -31 ] },
+    { "op" : "replace", "path" : "/paneLayout/foodBar/background", "value" : "/interface/emptybar.png" },
+    { "op" : "replace", "path" : "/paneLayout/foodBar/size", "value" : [ 61, 6 ] }
+]

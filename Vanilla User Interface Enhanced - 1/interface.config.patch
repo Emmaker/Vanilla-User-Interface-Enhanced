@@ -1,0 +1,29 @@
+[
+    { "op" : "replace", "path" : "/mainBar/size", "value" : [ 108, 108 ] },
+
+    { "op" : "replace", "path" : "/mainBar/questLog/pos", "value" : [ 87, 61 ] },
+    { "op" : "replace", "path" : "/mainBar/questLog/poly", "value" : [ [ 87, 61 ], [ 87, 78 ], [ 104, 78 ], [ 104, 61 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/inventory/pos", "value" : [ 9, 87 ] },
+    { "op" : "replace", "path" : "/mainBar/inventory/poly", "value" : [ [ 9, 87 ], [ 9, 104 ], [ 26, 96 ], [ 26, 87 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/craft/pos", "value" : [ 35, 87 ] },
+    { "op" : "replace", "path" : "/mainBar/craft/poly", "value" : [ [ 35, 87 ], [ 35, 104 ], [ 52, 104 ], [ 52, 87 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/codex/base", "value" : "/interface/vuie_bar.png" },
+    { "op" : "replace", "path" : "/mainBar/codex/open", "value" : "/interface/vuie_bar.png" },
+    { "op" : "replace", "path" : "/mainBar/codex/pos", "value" : [ 0, 0 ] },
+    { "op" : "replace", "path" : "/mainBar/codex/poly", "value" : [ [ 0, 0 ], [ 0, 0 ], [ 0, 0 ], [ 0, 0 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/collections/pos", "value" : [ 87, 87 ] },
+    { "op" : "replace", "path" : "/mainBar/collections/poly", "value" : [ [ 87, 87 ], [ 79, 104 ], [ 104, 104 ], [ 104, 87 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/mmUpgrade/pos", "value" : [ 61, 87 ] },
+    { "op" : "replace", "path" : "/mainBar/mmUpgrade/poly", "value" : [ [ 61, 87 ], [ 61, 104 ], [ 78, 104 ], [ 78, 87 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/deploy/pos", "value" : [ 87, 35 ] },
+    { "op" : "replace", "path" : "/mainBar/deploy/poly", "value" : [ [ 87, 35 ], [ 87, 52 ], [ 104, 52 ], [ 104, 35 ] ] },
+
+    { "op" : "replace", "path" : "/mainBar/beam/pos", "value" : [ 87, 9 ] },
+    { "op" : "replace", "path" : "/mainBar/beam/poly", "value" : [ [ 87, 9 ], [ 87, 26 ], [ 104, 26 ], [ 104, 9 ] ] }
+]
