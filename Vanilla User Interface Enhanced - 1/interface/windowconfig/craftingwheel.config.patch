@@ -1,6 +1,5 @@
 [
     { "op" : "replace", "path" : "/paneLayout/background/fileHeader", "value" : "/interface/crafting/vuie_craftingheader.png" },
-    { "op" : "replace", "path" : "/paneLayout/background/fileBody", "value" : "/interface/crafting/vuie_craftingbody.png" },
     { "op" : "replace", "path" : "/paneLayout/background/fileFooter", "value" : "/interface/crafting/vuie_craftingfooter.png" },
     
     { "op" : "replace", "path" : "/paneLayout/close/position", "value" : [ 325, 261 ] },
@@ -99,5 +98,23 @@
         } 
     },
 
-    { "op" : "add", "path" : "/modTab", "value" : [ ] }
+    { "op" : "add", "path" : "/modTab", "value" : [
+            {
+                "file" : "/interface/crafting/tabicon_ingredientsstring.png",
+                "filter" : [ "ingredients" ]
+            },
+            {
+                "file" : "/interface/crafting/tabicon_clothes.png",
+                "filter" : [ "clothes" ]
+            },
+            {
+                "file" : "/interface/crafting/tabicon_dyes.png",
+                "filter" : [ "dyes" ]
+            }
+        ]
+    },
+
+    { "op" : "remove", "path" : "/paneLayout/lblBarTab" },
+    { "op" : "remove", "path" : "/paneLayout/lblMatTab" },
+    { "op" : "remove", "path" : "/paneLayout/lblDyeTab" }
 ]

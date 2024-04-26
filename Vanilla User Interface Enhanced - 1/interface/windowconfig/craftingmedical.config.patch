@@ -1,6 +1,5 @@
 [
     { "op" : "replace", "path" : "/paneLayout/background/fileHeader", "value" : "/interface/crafting/vuie_craftingheader.png" },
-    { "op" : "replace", "path" : "/paneLayout/background/fileBody", "value" : "/interface/crafting/vuie_craftingbody.png" },
     { "op" : "replace", "path" : "/paneLayout/background/fileFooter", "value" : "/interface/crafting/vuie_craftingfooter.png" },
     
     { "op" : "replace", "path" : "/paneLayout/close/position", "value" : [ 325, 261 ] },
@@ -99,5 +98,18 @@
         } 
     },
 
-    { "op" : "add", "path" : "/modTab", "value" : [ ] }
+    { "op" : "add", "path" : "/modTab", "value" : [
+            {
+                "file" : "/interface/crafting/tabicon_healing.png",
+                "filter" : [ "healing" ]
+            },
+            {
+                "file" : "/interface/crafting/tabicon_buffs.png",
+                "filter" : [ "buffs" ]
+            }
+        ]
+    },
+
+    { "op" : "remove", "path" : "/paneLayout/lblBarTab" },
+    { "op" : "remove", "path" : "/paneLayout/lblMatTab" }
 ]

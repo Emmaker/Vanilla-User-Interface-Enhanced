@@ -1,13 +1,10 @@
 [
     { "op" : "replace", "path" : "/paneLayout/background/fileHeader", "value" : "/interface/crafting/vuie_craftingheader.png" },
-    { "op" : "replace", "path" : "/paneLayout/background/fileBody", "value" : "/interface/crafting/vuie_craftingbody.png" },
     { "op" : "replace", "path" : "/paneLayout/background/fileFooter", "value" : "/interface/crafting/vuie_craftingfooter.png" },
     
     { "op" : "replace", "path" : "/paneLayout/close/position", "value" : [ 325, 261 ] },
 
     { "op" : "remove", "path" : "/paneLayout/bgShine" },
-
-    { "op" : "replace", "path" : "/paneLayout/btnUpgrade/position", "value" : [ 143, 258 ] },
 
     { "op" : "replace", "path" : "/paneLayout/lblSchematics/position", "value" : [ 111, 244 ] },
     { "op" : "replace", "path" : "/paneLayout/lblProducttitle/position", "value" : [ 269, 244 ] },
@@ -99,5 +96,18 @@
         } 
     },
 
-    { "op" : "add", "path" : "/modTab", "value" : [ ] }
+    { "op" : "add", "path" : "/modTab", "value" : [
+            {
+                "file" : "/interface/crafting/tabicon_fossilbrush.png",
+                "filter" : [ "consumables" ]
+            },
+            {
+                "file" : "/interface/crafting/tabicon_fossilstand.png",
+                "filter" : [ "fossildisplays" ]
+            }
+        ]
+    },
+
+    { "op" : "remove", "path" : "/paneLayout/lblHammersTab" },
+    { "op" : "remove", "path" : "/paneLayout/lblStandsTab" }
 ]
